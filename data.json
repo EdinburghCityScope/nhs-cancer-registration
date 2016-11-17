@@ -1,0 +1,35 @@
+{
+    "id": "https://github.com/EdinburghCityScope/nhs-cancer-registrations",
+    "title": "NHS Cancer Registrations in Edinburgh",
+    "description": "Number of cancer registrations in Edinburgh by type and gender.",
+    "landingPage": "https://github.com/EdinburghCityScope/nhs-cancer-registrations",
+    "issued": "2016-10-21",
+    "modified": "2016-11-17",
+    "language": [
+        "en"
+    ],
+    "publisher": {
+        "name": "NHS Information Services Division",
+        "mbox": "NSS.isdSCT@nhs.net"
+    },
+    "spatial": "http://www.geonames.org/maps/google_55.95_-3.193.html",
+    "keyword": [
+        "health"
+    ],
+    "distribution": [
+        {
+            "title": "Edinburgh Data Zones 2001",
+            "description": "Data Zones 2001 boundaries in GeoJSON.",
+            "mediaType": "application/vnd.geo+json",
+            "downloadURL": "https://raw.githubusercontent.com/EdinburghCityScope/nhs-cancer-registrations/master/data/data-zones-2001.json",
+            "license": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/"
+        },
+        {
+            "title": "Edinburgh Cancer Registration data",
+            "description": "Cancer Registrations by Data Zones 2001 as published by NHS Information Services Division. Data taken from http://statistics.gov.scot/data/cancer-registrations",
+            "mediaType": "text/csv",
+            "downloadURL": "https://raw.githubusercontent.com/EdinburghCityScope/nhs-cancer-registrations/master/data/cancer-registrations.csv",
+            "license": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/"
+        }
+    ]
+}
